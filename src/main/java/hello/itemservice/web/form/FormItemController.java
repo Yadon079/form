@@ -95,9 +95,9 @@ public class FormItemController {
   public List<DeliveryCode> deliveryCodes() {
     List<DeliveryCode> deliveryCodes = new ArrayList<>();
 
-    deliveryCodes.add(new DeliveryCode("FAST"), "빠른 배송");
-    deliveryCodes.add(new DeliveryCode("NORMAL"), "빠른 배송");
-    deliveryCodes.add(new DeliveryCode("SLOW"), "빠른 배송");
+    deliveryCodes.add(new DeliveryCode("FAST", "빠른 배송"));
+    deliveryCodes.add(new DeliveryCode("NORMAL", "빠른 배송"));
+    deliveryCodes.add(new DeliveryCode("SLOW", "빠른 배송"));
 
     return  deliveryCodes;
   }
